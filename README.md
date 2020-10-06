@@ -1,1 +1,1 @@
-# pandamic-distance-tracker-using-openpose
+This code measures the distance between 2 humans and tells if the subjects are too close to each other. It makes use of the openpose library wherein it gets all the coordinates for each of the body parts and then checks the absolute difference between them. It it is less than a certain threshold, then a warning would be printed on the screen that tells to maintain the distance. It is a different approach from detecting humans in an image, here we are measuring the distance between the actual body parts of the humans.
